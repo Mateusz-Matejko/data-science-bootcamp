@@ -158,7 +158,7 @@ def task_10(string_1):
 
 # 12. Write a Python program to count the occurrences of each word in a given sentence. Go to the editor
 
-
+# 12. Write a Python program to count the occurrences of each word in a given sentence. Go to the editor
 test_sentence = "Hello, world! world i am as usu as sal as you are wold hello hello hi hi yo yo YOYOOYOYOYOYOYO motherfucker"
 
 
@@ -186,3 +186,14 @@ sorted_d = sorted(sorted_d.items(), key=lambda x: x[1], reverse=True)
 pprint.pprint(sorted_d)
 
 
+def task_12_1(sample_sentence):
+    answer_dict = {}
+    list_of_words = []
+    for i in sample_sentence.split(" "):
+        list_of_words.append(i)
+    for i in list_of_words:
+        if i in answer_dict.keys():
+            answer_dict[i] += 1
+            continue
+        answer_dict[i] = 1
+    return answer_dict
