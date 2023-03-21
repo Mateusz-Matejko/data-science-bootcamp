@@ -1,0 +1,34 @@
+#TODO
+1. Learn about * args, ** kwargs
+
+2. Watch CS50 - Exceptions and testing
+
+3. Learn more abut decorators
+
+4. Practice more about lambda function
+
+5. Watch CS50 - File I/O
+
+6. Practice Object-Oriented Programming
+
+7. Watch Tech With Tim about Decorators
+
+8. Do task on w3resource.com:
+    - Decorators
+    - File I/O
+    - Objects
+    - JSON
+    - Dictionaries
+    - Exceptions
+    - Testing
+    - Functions
+    - Enumerate
+    - Math
+    - Class
+
+9. Mapping in Python
+
+10. Learn Regular Expressions
+
+11. SQLite database
+
