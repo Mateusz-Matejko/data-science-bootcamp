@@ -26,3 +26,7 @@ with open("../fileIO/lotto.txt", "w") as f:
             f.write(str(item) + " ")
         f.write("\n")
 
+"""
+ ******
+********
+"""
